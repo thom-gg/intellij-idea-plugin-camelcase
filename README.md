@@ -6,8 +6,7 @@ This plugin allows to replace variables with a different formatting to camel cas
 > 
 > VariableName -> variableName
 
-
-I made this to discover how IntelliJ Idea plugins work
+It's made in Java.
 
 ## Features 
 You can trigger the action by 
@@ -34,3 +33,7 @@ The plugin interacts with the user by showing dialog boxes / message boxes
 ### On a folder: 
 ![ConfirmDialogFolder](./screenshots/confirmDialogFolder.png "confirm dialog folder")
 ![SuccessInfoBoxFolder](./screenshots/successInformationBoxFolder.png "success info box folder")
+
+## Usage 
+
+The runIde gradle task allows to start a development instance of the IDE, with the plugin, to try it.
