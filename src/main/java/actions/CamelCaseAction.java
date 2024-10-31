@@ -119,7 +119,7 @@ public class CamelCaseAction extends AnAction{
                         renameOnFile(psiFile, project);
                     }
                 }
-                Messages.showInfoMessage("Successfully renamed variables in " + files.length + " to camel case", "Success");
+                Messages.showInfoMessage("Successfully renamed variables in " + files.length + " files to camel case", "Success");
             }
         }
         // If it was called on a single file, act on this file
